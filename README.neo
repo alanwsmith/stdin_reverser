@@ -1,0 +1,26 @@
+-- title
+
+STDIN Reverser
+
+
+Take input from STDIN and reverse it on STDOUT
+
+-- notes
+
+- A very basic rust program
+
+- I needed a long running app that reads
+from STDIN and responds on STDOUT. I 
+built this for that purpose
+
+- Running the program starts it waiting for
+input on STDIN
+
+- When STDIN is received, it gets reversed
+and send back to STDOUT
+
+- The process keeps waiting for STDIN
+until an empty string is sent to STDIN 
+(this can be an empty newline on the
+terminal)
+
